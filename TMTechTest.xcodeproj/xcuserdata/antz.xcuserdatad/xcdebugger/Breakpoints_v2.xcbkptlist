@@ -423,8 +423,8 @@
             filePath = "TMTechTest/Services/ListingService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "getLatestListings()"
             landmarkType = "7">
             <Locations>
