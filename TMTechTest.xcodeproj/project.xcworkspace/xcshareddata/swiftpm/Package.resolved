@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "trademeapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/antokne/TradeMeAPI",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "e12c873a001450867f527ae73b45b495cc6ee5a4"
+      }
+    }
+  ],
+  "version" : 2
+}

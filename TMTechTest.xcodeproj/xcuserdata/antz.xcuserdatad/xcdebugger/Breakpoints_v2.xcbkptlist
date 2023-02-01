@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D222A820-62EC-4C61-AC8C-0E77624E6076"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "031AA4EF-9B34-4D2B-904A-363D57E0C762"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMTechTest/shared/ViewExtensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "alert(isPresented:title:message:dismissButton:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "031AA4EF-9B34-4D2B-904A-363D57E0C762 - d4f497ca76c7c9e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, dismissButton: Swift.Optional&lt;SwiftUI.Alert.Button&gt;) -&gt; some"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/shared/ViewExtensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "031AA4EF-9B34-4D2B-904A-363D57E0C762 - bc6ba9d7f87b1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Alert in SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, title: Swift.String, message: Swift.Optional&lt;Swift.String&gt;, dismissButton: Swift.Optional&lt;SwiftUI.Alert.Button&gt;) -&gt; some"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/shared/ViewExtensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74041FEB-56BB-4FEF-8951-B749771B65C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "testListingsLatest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74041FEB-56BB-4FEF-8951-B749771B65C7 - bf2ed2a0179b86ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TradeMeAPITests.TradeMeAPITests.testListingsLatest() async throws -&gt; ()"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "74041FEB-56BB-4FEF-8951-B749771B65C7 - 51447b9edf6442e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPITests.TradeMeAPITests.testListingsLatest() async throws -&gt; ()"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C16D3C34-6C76-4563-8CCB-B7D8E5F2C154"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getLastestListings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getLastestListings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6 - 27bc63e644ad5fe7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "932">
+               </Location>
+               <Location
+                  uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6 - 9456091bd4a46bf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2512">
+               </Location>
+               <Location
+                  uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6 - 5c6305916ca70dfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6 - 5128cd889280a119"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Array&lt;Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "2288">
+               </Location>
+               <Location
+                  uuid = "05D8C198-3857-4DE7-A91E-60345A8399B6 - 5128cd889280def6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Array&lt;Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getLastestListings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 9456091bd4a46b7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2904">
+               </Location>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 9456091bd4a46b7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2704">
+               </Location>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 9456091bd4a46b3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2576">
+               </Location>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 9456091bd4a46b3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 9456091bd4a46a44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "46EB489A-3833-4CCF-BF62-1F15DBFBDB60 - 5128cd889280a085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TradeMeAPI.TradeMeListings.getLastestListings() async throws -&gt; Swift.Array&lt;Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Sources/TradeMeAPI/TradeMeListings.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB3B4951-AD7C-42C5-94F0-341F3844341E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getLastestListings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EB3B4951-AD7C-42C5-94F0-341F3844341E - d81338d13cdfb6c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TradeMeAPITests.MockTradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "EB3B4951-AD7C-42C5-94F0-341F3844341E - d81338d13cdfb6e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for TradeMeAPITests.MockTradeMeListings.getLastestListings() async throws -&gt; Swift.Dictionary&lt;Swift.String, Any&gt;"
+                  moduleName = "TradeMeAPITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TradeMeAPI/Tests/TradeMeAPITests/TradeMeAPITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D9F7F79-2BED-420A-9829-9537AA2334D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMTechTest/ViewModel/BrowseViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "refreshListings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D9F7F79-2BED-420A-9829-9537AA2334D4 - 44ab55bceedb1d8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TMTechTest.BrowseViewModel.refreshListings() async -&gt; ()"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/ViewModel/BrowseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "8D9F7F79-2BED-420A-9829-9537AA2334D4 - d8ae96706c22340b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable () -&gt; () in TMTechTest.BrowseViewModel.refreshListings() async -&gt; ()"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/ViewModel/BrowseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3356B79C-7270-40A9-A938-B9F2F9C4D4E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TMTechTest/Services/ListingService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getLatestListings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3356B79C-7270-40A9-A938-B9F2F9C4D4E1 - 235ec320a221ad38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for TMTechTest.ListingService.getLatestListings() async throws -&gt; Swift.Array&lt;TMTechTest.ListingModel&gt;"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/Services/ListingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3356B79C-7270-40A9-A938-B9F2F9C4D4E1 - 6c2212cece9169a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; TMTechTest.ListingModel in TMTechTest.ListingService.getLatestListings() async throws -&gt; Swift.Array&lt;TMTechTest.ListingModel&gt;"
+                  moduleName = "TMTechTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/antz/dev/TMTechTest/TMTechTest/Services/ListingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
