@@ -92,6 +92,10 @@ extension ListingModel: ListingAccessProtocol {
 	}
 	
 	public var reserveStatusTitle: String {
+		if let isClassified = json["IsClassified"] as? Bool, isClassified {
+			return "Asking price"
+		}
+		
 		let reserveState = json["ReserveState"] as? Int
 		if let state = ReserveState(rawValue: reserveState ?? ReserveState.na.rawValue) {
 			return state.title()
