@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct ListingRowView: View {
-	var listing: ListingModel
+	var listing: ListingAccessProtocol
     var body: some View {
 		HStack {
 			AsyncImage(url: listing.firstImageURL) { image in
@@ -58,8 +58,39 @@ struct ListingRowView: View {
 struct ListingRowView_Previews: PreviewProvider {
     static var previews: some View {
 		List {
-//			ListingRowView(listing: Listing(imageURL: URL(string: "https://picsum.photos/200"), title: "iPhone 8 Plus - in really pretty good condition", location: "Auckland", currentBid: "$450", status: "Reserve met"))
-//			ListingRowView(listing: Listing(imageURL: URL(string: "https://images.tmsandbox.co.nz/photoserver/thumb/15721009.jpg"), title: "Naim amp", location: "Wellington", currentBid: "$1230", status: "Reserve not met"))
+			ListingRowView(listing: MockListingModel())
+
 		}
     }
+}
+
+
+class MockListingModel: NSObject {
+}
+
+extension MockListingModel: ListingAccessProtocol {
+	
+	public var firstImageURL: URL? {
+		return URL(string: "https://picsum.photos/200")
+	}
+	
+	public var region: String? {
+		"Waikato"
+	}
+	
+	public var title: String? {
+		"iPhone 17s max pro extreme - excellent condition"
+	}
+	
+	public var displayPrice: String? {
+		"$9999.99"
+	}
+	
+	public var buyNowPrice: String? {
+		"$10,999,99"
+	}
+	
+	public var reserveStatusTitle: String {
+		"Reserve not met"
+	}
 }
