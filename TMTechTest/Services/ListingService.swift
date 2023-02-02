@@ -26,7 +26,7 @@ public class ListingService: NSObject, ObservableObject {
 		// Get cloud listings and convert to array of key-value pairs
 		if let results = try await tradeMeApi.listings.getLastestListings() as? [[String: Any]] {
 
-			// Normally I here I might insert this data into a local model and then notify via a publisher
+			// Normally here I might insert this data into a local model and then notify via a publisher
 			// which the view model has subscribed to.
 			let listings = results.map { ListingModel(json: $0) }
 			return listings
