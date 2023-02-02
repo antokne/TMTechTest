@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ListingDetailView: View {
-    var body: some View {
-        Text("Listing details go here.")
-    }
+	var body: some View {
+		Text("Listing details go here.")
+	}
 }
 
 struct ListingDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        ListingDetailView()
-    }
+	static var previews: some View {
+		ListingDetailView()
+	}
 }

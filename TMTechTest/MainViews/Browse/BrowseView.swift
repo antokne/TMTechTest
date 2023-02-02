@@ -11,7 +11,7 @@ struct BrowseView: View {
 	
 	@StateObject private var browseViewModel: BrowseViewModel = BrowseViewModel()
 	
-    var body: some View {
+	var body: some View {
 		NavigationStack {
 			List {
 				ForEach(browseViewModel.listings) { listing in
@@ -25,7 +25,7 @@ struct BrowseView: View {
 }
 
 struct Discover_Previews: PreviewProvider {
-    static var previews: some View {
+	static var previews: some View {
 		BrowseView()
-    }
+	}
 }

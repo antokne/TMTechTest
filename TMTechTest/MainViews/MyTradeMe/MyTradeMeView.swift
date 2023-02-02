@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct MyTradeMeView: View {
-    var body: some View {
-        Text("My Trade Me goes here")
-    }
+	var body: some View {
+		Text("My Trade Me goes here")
+	}
 }
 
 struct MyTradeMeView_Previews: PreviewProvider {
-    static var previews: some View {
-        MyTradeMeView()
-    }
+	static var previews: some View {
+		MyTradeMeView()
+	}
 }

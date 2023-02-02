@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct WatchlistView: View {
-    var body: some View {
+	var body: some View {
 		// TODO: TICKET-1234 - Add watch list here.
-        Text("Watchlist goes here")
-    }
+		Text("Watchlist goes here")
+	}
 }
 
 struct Watchlist_Previews: PreviewProvider {
-    static var previews: some View {
+	static var previews: some View {
 		WatchlistView()
-    }
+	}
 }

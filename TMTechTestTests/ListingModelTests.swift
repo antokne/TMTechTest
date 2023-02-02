@@ -11,10 +11,10 @@ import XCTest
 final class ListingModelTests: XCTestCase {
 	
 	var json: [String: Any]?
-
-    override func setUpWithError() throws {
+	
+	override func setUpWithError() throws {
 		guard let file = Bundle(for: ListingModelTests.self).url(forResource: "one-listing", withExtension: "json"),
-		   let data = try? Data(contentsOf: file) else {
+			  let data = try? Data(contentsOf: file) else {
 			XCTFail("json not found")
 			return
 		}
@@ -22,12 +22,12 @@ final class ListingModelTests: XCTestCase {
 		json = try? JSONSerialization.jsonObject(with: data) as? [String: Any]
 		XCTAssertNotNil(json)
 	}
-
-    override func tearDownWithError() throws {
-    }
-
-    func testListingModel() throws {
-
+	
+	override func tearDownWithError() throws {
+	}
+	
+	func testListingModel() throws {
+		
 		guard let json else {
 			XCTFail("json is nil")
 			return
@@ -39,6 +39,6 @@ final class ListingModelTests: XCTestCase {
 		XCTAssertEqual(listing.firstImageURL?.absoluteString, "https://images.tmsandbox.co.nz/photoserver/thumb/15721010.jpg")
 		XCTAssertEqual(listing.region, "Waikato")
 		XCTAssertEqual(listing.displayPrice, "To be auctioned")
-
-    }
+		
+	}
 }
